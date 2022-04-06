@@ -2,6 +2,10 @@
 
 `st.checkbox` displays a checkbox widget.
 
+## What we're building?
+
+A simple app that shows the `st.checkbox` in action by displaying custom text depending on which checkbox are ticked.
+
 ## Demo app
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.checkbox/)
