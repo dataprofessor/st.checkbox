@@ -2,7 +2,9 @@ import streamlit as st
 
 st.header('st.checkbox')
 
-agree = st.checkbox('I agree')
+st.write ('Do you like ice cream?')
 
-if agree:
-     st.write('Great!')
+yes = st.checkbox('Yes')
+
+if yes:
+     st.write("Great! Here's some more", 🍦)
