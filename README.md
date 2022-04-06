@@ -21,7 +21,7 @@ cola = st.checkbox('Cola')
 
 if icecream:
      st.write("Great! Here's some more 🍦")
-     
+    
 if coffee: 
      st.write("Okay, here's some coffee ☕")
 
@@ -45,8 +45,24 @@ Next, we're going to ask a question via `st.write':
 st.write ('What would you like to order?')
 ```
 
+We're then going to provide some menu items to tick on:
+```python
+icecream = st.checkbox('Ice cream')
+coffee = st.checkbox('Coffee')
+cola = st.checkbox('Cola')
+```
 
+Finally, we're going to print custom text depending on which checkbox was ticked on:
+```python
+if icecream:
+     st.write("Great! Here's some more 🍦")
+    
+if coffee: 
+     st.write("Okay, here's some coffee ☕")
 
+if cola:
+     st.write("Here you go 🥤")
+```  
 
 ## Further reading
 
