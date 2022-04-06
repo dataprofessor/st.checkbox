@@ -65,4 +65,4 @@ if cola:
 ```  
 
 ## Further reading
-
+[`st.checkbox`](https://docs.streamlit.io/library/api-reference/widgets/st.checkbox)
