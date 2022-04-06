@@ -1,6 +1,6 @@
 # st.checkbox
 
-`st.template` displays a checkbox widget.
+`st.checkbox` displays a checkbox widget.
 
 ## Demo app
 
