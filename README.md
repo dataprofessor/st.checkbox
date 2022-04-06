@@ -1,4 +1,4 @@
-# st.template
+# st.checkbox
 
 `st.template` displays a checkbox widget.
 
