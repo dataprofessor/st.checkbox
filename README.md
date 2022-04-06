@@ -11,7 +11,22 @@ Here's how to use st.write:
 ```python
 import streamlit as st
 
+st.header('st.checkbox')
 
+st.write ('What would you like to order?')
+
+icecream = st.checkbox('Ice cream')
+coffee = st.checkbox('Coffee')
+cola = st.checkbox('Cola')
+
+if icecream:
+     st.write("Great! Here's some more 🍦")
+     
+if coffee: 
+     st.write("Okay, here's some coffee ☕")
+
+if cola:
+     st.write("Here you go 🥤")
 ```
 
 ## Line-by-line explanation
@@ -19,6 +34,19 @@ The very first thing to do when creating a Streamlit app is to start by importin
 ```python
 import streamlit as st
 ```
+
+This is followed by creating a header text for the app:
+```python
+st.header('st.checkbox')
+```
+
+Next, we're going to ask a question via `st.write':
+```python
+st.write ('What would you like to order?')
+```
+
+
+
 
 ## Further reading
 
