@@ -2,13 +2,17 @@ import streamlit as st
 
 st.header('st.checkbox')
 
-st.write ('Do you want ice cream?')
+st.write ('What would you like to order?')
 
-yes = st.checkbox('Yes')
-no = st.checkbox('No')
+icecream = st.checkbox('Ice cream')
+coffee = st.checkbox('Coffee')
+cola = st.checkbox('Cola')
 
-if yes:
+if icecream:
      st.write("Great! Here's some more 🍦")
      
-if no: 
+if coffee: 
      st.write("Okay, here's some coffee ☕")
+
+if cola:
+     st.write('Here you go 🥤")
